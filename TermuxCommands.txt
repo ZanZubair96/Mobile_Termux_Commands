@@ -1,0 +1,56 @@
+
+
+
+Termux commands:
+
+cd ..						 // previous directory
+cd                                               // change directory
+clear                                            // to clear the termux screen
+cp "file_name" "Location_where_you_wanna_copy"   // for copying
+mkdir "NAME"  					 // Make directory
+ls  						 // list the folders  
+rm -rf "file_name"				 // Delete directory or folder in termux
+apt list 					 // to list all the available APT repository of termux		
+pkg install "package_name"                       // to install package
+pkg uninstall "package_name"			 // to uninstall package
+git clone "project_URL"				 // to download	the project from the github	
+exit						 // close the termux
+touch "file_name"                                // create text file
+nano  "file_name"                                //edit the file and save it by pressing ctrl+x
+cat "file_name"                                  // to view the file
+rm "file_name"                                   // remove the file
+apt show "package_name"                          //shows the information about that package
+ls -a                                            // to see hidden files
+ls -lh                                           // to see file details 
+date                                             // to show current date
+cal  					         // to show calendar
+free                                             // display memory 
+whoami                                           // to show your login name
+mv "file_name" "Location_where_you_wanna_move"   // to move a file or folder
+ifconfig                                         //network information
+netstat                                          // review network information
+uname -a                                         // to display kernal information
+
+
+// separate line for package update and upgrade
+apt update 
+apt upgrade 
+
+or 
+// single line for package update and upgrade
+apt update && apt upgrade 
+
+
+//Allow the permission for storage
+termux-setup-storage
+
+
+//To know which directory are you in
+pwd                                             // present working directory
+
+
+
+
+
+
+ 
